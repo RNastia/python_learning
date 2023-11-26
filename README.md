@@ -1,2 +1,2 @@
-# python_learning
+# Python Learning
 from zero to hero
