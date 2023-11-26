@@ -25,6 +25,6 @@ while not yearsMovies.isdigit():
     print(f"Упс , вы ввели не число, а то что вы ввели это '{yearsMovies}' \n")
     yearsMovies =input("Введите еще раз за сколько лет вы просмотрели эти фильмы?\n")
 
-# outputYear #
+# resultYear #
 print("Значит в год вы читаете", int(books)//int(yearsBooks), "книг")
 print("Значит в год вы смотрите", int(movies)//int(yearsMovies), "фильмов")
