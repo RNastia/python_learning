@@ -1,2 +1,6 @@
-test = "hello"
-print(test)
+books=int(input("Здравствуйте сколько книг вы прочли?"))
+yearsBooks=int(input("За сколько лет вы прочли все эти книги?"))
+movies=int(input("А сколько фильмов вы посмотрели?"))
+yearsMovies=int(input("За сколько лет вы просмотрели все эти фильмы?"))
+print("Значит в год вы читаете ",books//yearsBooks,"книг")
+print("Значит в год вы смотрите ",movies//yearsMovies,"фильмов")
