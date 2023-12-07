@@ -1,13 +1,13 @@
 numbers=input("Введите пожалуйста числа для нахождения их среднего арифметического (через пробел) : ")
 
-num=numbers.split()
-print(num)
+array=numbers.split()
+print(array)
 
 summa=0
-for eliment in num:
+for eliment in array:
     summa=summa + int(eliment)
 
-col=len(num)
+col=len(array)
 srednee=summa/col
 print(srednee)
 
